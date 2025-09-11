@@ -4,5 +4,6 @@ requests
 beautifulsoup4
 langdetect
 transformers
-torch
+torch==2.0.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 sentencepiece
