@@ -1,0 +1,8 @@
+streamlit
+feedparser
+requests
+beautifulsoup4
+langdetect
+transformers
+torch
+sentencepiece
