@@ -4,6 +4,15 @@ import requests
 from bs4 import BeautifulSoup
 from langdetect import detect
 from transformers import pipeline, MBartForConditionalGeneration, MBart50TokenizerFast
+import subprocess, sys
+
+try:
+    import feedparser
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "feedparser"])
+    import feedparser
+
+
 
 # ----------------------------
 # Load Models (once at startup)
