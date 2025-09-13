@@ -1,7 +1,0 @@
-streamlit
-feedparser
-requests
-beautifulsoup4
-langdetect
-transformers==4.43.2
-sentencepiece
